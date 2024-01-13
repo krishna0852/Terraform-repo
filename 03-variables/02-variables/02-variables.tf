@@ -18,8 +18,8 @@ resource "aws_instance" "ec2-launch"{
 variable "credentials" {
 type=map(string)
 default={
-    "akey"="AKIA2UC3CSCWRMXCKD6L"
-    "skey"="k/xZusH4gE6UlnrebD8MqXdwnwh0yRwvPcUi771R"
+    "akey"="AKIA2sthegyeyeuushhsL"
+    "skey"="k/xZusH4gE6Ulnrebhggtrewwsggsgs"
 }  
 }
 
