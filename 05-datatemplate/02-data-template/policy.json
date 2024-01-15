@@ -1,0 +1,13 @@
+{
+    "Id": "BucketPolicy",
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "AllAccess",
+        "Action": "s3:*",
+        "Effect": "Allow",
+        "Resource": "${bucket_arn}"
+      }
+    ]
+  }
+  
